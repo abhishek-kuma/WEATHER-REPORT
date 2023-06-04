@@ -8,14 +8,14 @@ import datetime
 print("\033[1;33mWelocome to the Weather Report App you can check the weather of any city in the world")
 print("\033[1;30m-------------------------------------------------")
 test=input("Press Enter to continue...")
-resp=input("\033[1;34m Do you want to Enter a new API key? (y/n)")
+resp=input("\033[1;34mDo you want to Enter a new API key? (y/n) : ")
 if(resp=='y'):
     import config
 else:
     pass
 check = os.path.exists("api/api_key.txt")
 if check == False:
-    print("\033[1;31m API key not found .")
+    print("\033[1;31mAPI key not found .")
     sys.exit()
 else:
     pass
@@ -66,10 +66,12 @@ while(resp2):
     else:   
         print(" City Not Found ")
     print("\n \033[1;30m-------------------------------------------------")
-    resp2=input("\n \033[1;31m Do you want to check the weather of another city? (y/n) : ")
+    resp2=input("\n \033[1;31mDo you want to check the weather of another city? (y/n) : ")
     if(resp2=='y'):
         pass
     else:
+        print("\033[1;30mThank you for using the Weather Report App")
+        print("\033[1;30m-------------------------------------------------")
         break
 print("\033[1;30m")
 
