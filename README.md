@@ -2,11 +2,11 @@
 
 ## INTRODUCTION
 
-You can view the weather reprort of any city by using this CLI app which lets you to view the 
+You can view the weather report of any city by using this CLI app which lets you to view the
 
 1. Time
 2. Temperature
-3. Atmosphereic Pressure
+3. Atmospheric Pressure
 4. Humidity
 5. Description of the weather of that city .
 
