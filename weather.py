@@ -1,9 +1,7 @@
 #make a weather app that tells you the weather of a city by using api of openweathermap.org use command line for output
 import requests
-import json
 import sys
 import os
-import time
 import datetime
 print("\033[1;33mWelocome to the Weather Report App you can check the weather of any city in the world")
 print("\033[1;30m-------------------------------------------------")
